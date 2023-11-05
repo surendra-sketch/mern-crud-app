@@ -7,20 +7,27 @@ const Footer = () => {
         <div className="social">
           <ul>
             <li>
-              <a href="/#">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/surendra-singh-573791168/">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="/#">React</a>
+              <a href="https://surendraportfolioforshowcase.netlify.app/">
+                Main Site
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/surendra-sketch">GitHub Account</a>
             </li>
           </ul>
         </div>
         <div className="servises">
           <ul>
             <li>
-              <a href="/#">LinkedIn</a>
+              <p>Plaese leave a star on github repo</p>
             </li>
             <li>
-              <a href="/#">React</a>
+              <a href="https://react.dev/">React</a>
             </li>
           </ul>
         </div>

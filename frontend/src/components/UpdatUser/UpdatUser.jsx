@@ -50,37 +50,40 @@ const UpdatUser = () => {
   };
 
   return (
-    <div className="form-container">
-      <form onSubmit={updateuser}>
-        <div className="input-con">
-          <label htmlFor="name">Name :</label>
-          <input
-            required
-            name="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            type="text"
-            placeholder="Entere your name"
-          />
-        </div>
-        <div className="input-con">
-          <label htmlFor="email">Email :</label>
-          <input
-            required
-            name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            type="email"
-            placeholder="Entere your email"
-          />
-        </div>
-        {/* <div className="input-con">
-           <progress value={null} />
-        </div> */}
-
-        <button type="submit">Update user</button>
-      </form>
-    </div>
+    <section className="update">
+      <div className="form-container">
+        <form onSubmit={updateuser}>
+          <div className="input-con">
+            <label htmlFor="name">Name :</label>
+            <input
+              required
+              name="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              type="text"
+              placeholder="Entere your name"
+            />
+          </div>
+          <div className="input-con">
+            <label htmlFor="email">Email :</label>
+            <input
+              required
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              type="email"
+              placeholder="Entere your email"
+            />
+          </div>
+          <div className="upt">
+            <button type="submit">Update user</button>
+            <button className="cancel" type="submit">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
   );
 };
 

@@ -29,7 +29,7 @@ const AddUser = () => {
       setName("");
       route("/");
     } else {
-      alert("user not added");
+      alert("User not added please try with other email");
     }
   };
 
